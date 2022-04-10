@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+header {
+  margin-top: 100px;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  margin-top: 260px;
+}
+
+.container {
+  width: 1000px;
+  height: 50%;
+  background-color: rgba(68, 64, 64, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoesPrincipais {
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
+
+.container li img {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.container li img:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+}
+
+ul li img {
+  width: 160px;
+  border-radius: 10px;
+}
+
+ul li p {
+  list-style: none;
+  display: inline;
+  color: rgb(156, 150, 150);
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(156, 150, 150);
+}
+
+a:hover {
+  width: ;
+  color: black;
+}
+
+
+.gerenciarPerfis {
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 3px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: grey;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 1200px;
+}
+
+.gerenciarPerfis:hover {
+  background-color: white;
+  border: none;
+  transition: all;
+}
+
+
